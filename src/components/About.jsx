@@ -1,3 +1,16 @@
+import html from "../../public/assets/logos/html.png"
+import css from "../../public/assets/logos/css.png"
+import js from "../../public/assets/logos/js.png"
+import tcss from "../../public/assets/logos/tailwindcss.png"
+import react from "../../public/assets/logos/reactjs.png"
+import node from "../../public/assets/logos/node.png"
+import express from "../../public/assets/logos/express.png"
+import mongo from "../../public/assets/logos/mongodb.png"
+import ts from "../../public/assets/logos/ts.png"
+import cpp from "../../public/assets/logos/c++.png"
+import c from "../../public/assets/logos/c.png"
+import python from "../../public/assets/logos/python.png"
+
 export default function About(){
     return(
         <div className="bg-back h-full text-white flex justify-center">
@@ -22,55 +35,55 @@ export default function About(){
                 <div className="text-3xl font-bold mt-12 flex font-two">Skills</div>
                 <div className="flex items-center justify-around my-4 flex-wrap font-six">
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src="../../public/assets/logos/html.png" alt="" className="mb-4" />
+                        <img src={html} alt="" className="mb-4" />
                         <div className="flex justify-center text-2xl">HTML</div>
                     </div>
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='../../public/assets/logos/css.png' alt="" className="mb-5" />
+                        <img src={css} alt="" className="mb-5" />
                         <div className="flex justify-center text-2xl">CSS</div>
                     </div>
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='../../public/assets/logos/js.png' alt="" className="mb-6" />
+                        <img src={js} alt="" className="mb-6" />
                         <div className="flex justify-center text-2xl">JavaScript</div>
                     </div>
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='../../public/assets/logos/tailwindcss.png' alt="" className="mt-7 mb-10" />
+                        <img src={tcss} alt="" className="mt-7 mb-10" />
                         <div className="flex justify-center text-2xl">TailwindCSS</div>
                     </div>
                 </div>
                 <div className="flex items-center justify-around mt-8 flex-wrap font-six">
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='../../public/assets/logos/reactjs.png' alt="" className="mb-5" />
+                        <img src={react} alt="" className="mb-5" />
                         <div className="flex justify-center text-2xl">React</div>
                     </div>
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='../../public/assets/logos/node.png' alt="" className="mt-2 mb-7" />
+                        <img src={node} alt="" className="mt-2 mb-7" />
                         <div className="flex justify-center text-2xl">Node.js</div>
                     </div>
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='../../public/assets/logos/express.png' alt="" className="mb-5" />
+                        <img src={express} alt="" className="mb-5" />
                         <div className="flex justify-center text-2xl">Express</div>
                     </div>
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='../../public/assets/logos/mongodb.png' alt="" className="mb-5" />
+                        <img src={mongo} alt="" className="mb-5" />
                         <div className="flex justify-center text-2xl">MongoDB</div>
                     </div>
                 </div>
                 <div className="flex items-center justify-around mt-8 flex-wrap font-six">
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='../../public/assets/logos/ts.png' alt="" className="mb-6" />
+                        <img src={ts} alt="" className="mb-6" />
                         <div className="flex justify-center text-2xl">TypeScript</div>
                     </div>
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='../../public/assets/logos/c++.png' alt="" className="mb-2.5"/>
+                        <img src={cpp} alt="" className="mb-2.5"/>
                         <div className="flex justify-center text-2xl">C++</div>
                     </div>
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='../../public/assets/logos/c.png' alt="" className="mb-3" />
+                        <img src={c} alt="" className="mb-3" />
                         <div className="flex justify-center text-2xl">C</div>
                     </div>
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='../../public/assets/logos/python.png' alt="" className="mb-6" />
+                        <img src={python} alt="" className="mb-6" />
                         <div className="flex justify-center text-2xl">Python</div>
                     </div>
                 </div>

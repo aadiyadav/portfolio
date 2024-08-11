@@ -1,4 +1,6 @@
 import Bake from "../../public/assets/projects/bake-house.png"
+import Social from "../../public/assets/projects/peaquack.png"
+import Fin from "../../public/assets/projects/fintech.jpg"
 
 export default function Projects(){
 
@@ -67,7 +69,7 @@ export default function Projects(){
                         </div>
                     </div>
                     <div>
-                    <img src="../../public/assets/projects/peaquack.png" alt="YO" 
+                    <img src={Social} alt="YO" 
                     className="rounded-lg cursor-pointer"
                     onClick={() => handleClick("https://peaquck.vercel.app/")}/>
                     </div>
@@ -98,7 +100,7 @@ export default function Projects(){
                         </div>
                     </div>
                     <div className="w-full">
-                        <img src="../../public/assets/projects/fintech.jpg" alt="YO" 
+                        <img src={Fin} alt="YO" 
                         className="rounded-lg cursor-auto"/>
                     </div>
                 </div>
