@@ -33,7 +33,7 @@ export default function Projects(){
                         </div>
                     </div>
                     <div>
-                        <img src="src\assets\projects\bake-house.png" alt="YO"
+                        <img src="src/assets/projects/bake-house.png" alt="YO"
                         className="rounded-lg cursor-pointer"
                         onClick={() => handleClick("https://bake-house-bakery.vercel.app/")}/>
                     </div>
@@ -65,7 +65,7 @@ export default function Projects(){
                         </div>
                     </div>
                     <div>
-                    <img src="src\assets\projects\peaquack.png" alt="YO" 
+                    <img src="src/assets/projects/peaquack.png" alt="YO" 
                     className="rounded-lg cursor-pointer"
                     onClick={() => handleClick("https://peaquck.vercel.app/")}/>
                     </div>
@@ -96,7 +96,7 @@ export default function Projects(){
                         </div>
                     </div>
                     <div className="w-full">
-                        <img src="src\assets\projects\fintech.jpg" alt="YO" 
+                        <img src="src/assets/projects/fintech.jpg" alt="YO" 
                         className="rounded-lg cursor-auto"/>
                     </div>
                 </div>

@@ -22,55 +22,55 @@ export default function About(){
                 <div className="text-3xl font-bold mt-12 flex font-two">Skills</div>
                 <div className="flex items-center justify-around my-4 flex-wrap font-six">
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='src\assets\logos\html.png' alt="" className="mb-4" />
+                        <img src='src/assets/logos/html.png' alt="" className="mb-4" />
                         <div className="flex justify-center text-2xl">HTML</div>
                     </div>
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='src\assets\logos\css.png' alt="" className="mb-5" />
+                        <img src='src/assets/logos/css.png' alt="" className="mb-5" />
                         <div className="flex justify-center text-2xl">CSS</div>
                     </div>
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='src\assets\logos\js.png' alt="" className="mb-6" />
+                        <img src='src/assets/logos/js.png' alt="" className="mb-6" />
                         <div className="flex justify-center text-2xl">JavaScript</div>
                     </div>
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='src\assets\logos\tailwindcss.png' alt="" className="mt-7 mb-10" />
+                        <img src='src/assets/logos/tailwindcss.png' alt="" className="mt-7 mb-10" />
                         <div className="flex justify-center text-2xl">TailwindCSS</div>
                     </div>
                 </div>
                 <div className="flex items-center justify-around mt-8 flex-wrap font-six">
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='src\assets\logos\reactjs.png' alt="" className="mb-5" />
+                        <img src='src/assets/logos/reactjs.png' alt="" className="mb-5" />
                         <div className="flex justify-center text-2xl">React</div>
                     </div>
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='src\assets\logos\node.png' alt="" className="mt-2 mb-7" />
+                        <img src='src/assets/logos/node.png' alt="" className="mt-2 mb-7" />
                         <div className="flex justify-center text-2xl">Node.js</div>
                     </div>
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='src\assets\logos\express.png' alt="" className="mb-5" />
+                        <img src='src/assets/logos/express.png' alt="" className="mb-5" />
                         <div className="flex justify-center text-2xl">Express</div>
                     </div>
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='src\assets\logos\mongodb.png' alt="" className="mb-5" />
+                        <img src='src/assets/logos/mongodb.png' alt="" className="mb-5" />
                         <div className="flex justify-center text-2xl">MongoDB</div>
                     </div>
                 </div>
                 <div className="flex items-center justify-around mt-8 flex-wrap font-six">
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='src\assets\logos\ts.png' alt="" className="mb-6" />
+                        <img src='src/assets/logos/ts.png' alt="" className="mb-6" />
                         <div className="flex justify-center text-2xl">TypeScript</div>
                     </div>
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='src\assets\logos\c++.png' alt="" className="mb-2.5"/>
+                        <img src='src/assets/logos/c++.png' alt="" className="mb-2.5"/>
                         <div className="flex justify-center text-2xl">C++</div>
                     </div>
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='src\assets\logos\c.png' alt="" className="mb-3" />
+                        <img src='src/assets/logos/c.png' alt="" className="mb-3" />
                         <div className="flex justify-center text-2xl">C</div>
                     </div>
                     <div className="border rounded-md p-6 w-40 h-56 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
-                        <img src='src\assets\logos\python.png' alt="" className="mb-6" />
+                        <img src='src/assets/logos/python.png' alt="" className="mb-6" />
                         <div className="flex justify-center text-2xl">Python</div>
                     </div>
                 </div>
