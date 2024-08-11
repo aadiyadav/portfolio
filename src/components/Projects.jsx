@@ -1,3 +1,5 @@
+import Bake from "../../public/assets/projects/bake-house.png"
+
 export default function Projects(){
 
     const handleClick = (link) => {
@@ -33,7 +35,7 @@ export default function Projects(){
                         </div>
                     </div>
                     <div>
-                        <img src="../../public/assets/projects/bake-house.png" alt="YO"
+                        <img src={Bake} alt="YO"
                         className="rounded-lg cursor-pointer"
                         onClick={() => handleClick("https://bake-house-bakery.vercel.app/")}/>
                     </div>
