@@ -1,14 +1,19 @@
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom"
 import { RxHamburgerMenu } from "react-icons/rx";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Navbar(){
 
     const [show, setShow] = useState(false)
+    const location = useLocation();
 
     const onOpen = () => {
         setShow(!show)
     }
+
+    useEffect(() => {
+        setShow(false);
+    }, [location]);
 
     return(
         <div>
