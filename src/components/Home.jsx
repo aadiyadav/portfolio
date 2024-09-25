@@ -20,13 +20,14 @@ export default function Home(){
     }, [])
     return(
         <div id="vanta" className="flex-col items-center justify-center h-screen text-gray-300">
-            <div className="flex items-center justify-center lg:text-6xl text-3xl pt-80 font-six">
-                <div className="lg:mr-4 mr-2">Hi, I am</div>
+            <div className="flex items-center justify-center md:text-6xl sm:text-5xl text-3xl pt-80 font-six">
+                <div className="md:mr-4 mr-2">Hi, I am</div>
                 <div className="text-amber-300">Aadi Yadav</div>
                 <div>.</div>
             </div>
-            <div className="flex justify-center mt-5 mx-10 text-base font-one">A computer science
-                student and MERN stack developer who loves coding...</div> 
+            <div className="flex justify-center mt-5 mx-10 text-base font-one">
+                A computer science student and MERN stack developer who loves coding...
+            </div> 
         </div>
     )
 }
