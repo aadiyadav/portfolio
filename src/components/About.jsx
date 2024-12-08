@@ -14,8 +14,8 @@ import python from "../../public/assets/logos/python.png"
 export default function About(){
     return(
         <div className="bg-back h-full text-white flex justify-center">
-            <div className="lg:w-1/2 sm:px-10 px-4 py-10">
-                <div className="text-3xl font-bold my-4 font-two">Introduction</div>
+            <div className="lg:w-7/12 sm:px-16 px-4 py-10">
+                <div className="text-4xl font-bold my-4 font-seven">Introduction</div>
                 <div className="my-2">
                     👨🏻‍💻 I am a student, currently in my 3rd year of pursuing Bachelor of 
                     Technology in Computer Science with specialization in Big Data Analytics 
@@ -32,8 +32,8 @@ export default function About(){
                     and self-motivation, which always drives me to work and give my best shot. 
                     I am eagerly looking forward to work for your company and contribute my skills.
                 </div>
-                <div className="text-3xl font-bold mt-12 flex font-two">Skills</div>
-                <div className="flex items-center justify-around my-4 flex-wrap font-six">
+                <div className="text-4xl font-bold mt-12 flex font-seven">Skills</div>
+                <div className="flex items-center justify-around my-4 flex-wrap font-eight">
                     <div className="border rounded-md p-6 sm:w-40 w-36 sm:h-56 h-52 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
                         <img src={html} alt="" className="mb-4" />
                         <div className="flex justify-center text-2xl">HTML</div>
@@ -51,7 +51,7 @@ export default function About(){
                         <div className="flex justify-center text-2xl">TailwindCSS</div>
                     </div>
                 </div>
-                <div className="flex items-center justify-around mt-8 flex-wrap font-six">
+                <div className="flex items-center justify-around mt-8 flex-wrap font-eight">
                     <div className="border rounded-md p-6 sm:w-40 w-36 sm:h-56 h-52 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
                         <img src={react} alt="" className="mb-5" />
                         <div className="flex justify-center text-2xl">React</div>
@@ -69,7 +69,7 @@ export default function About(){
                         <div className="flex justify-center text-2xl">MongoDB</div>
                     </div>
                 </div>
-                <div className="flex items-center justify-around mt-8 flex-wrap font-six">
+                <div className="flex items-center justify-around mt-8 flex-wrap font-eight  ">
                     <div className="border rounded-md p-6 sm:w-40 w-36 sm:h-56 h-52 my-4 hover:bg-neutral-800 hover:shadow-lang transition">
                         <img src={ts} alt="" className="mb-6" />
                         <div className="flex justify-center text-2xl">TypeScript</div>

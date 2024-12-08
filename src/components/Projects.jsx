@@ -11,7 +11,7 @@ export default function Projects(){
     return(
         <div className="bg-back text-white h-full lg:flex lg:justify-center">
             <div className="lg:w-3/5 px-10 py-10">
-                <div className="text-4xl font-bold my-4 font-two">Projects</div>
+                <div className="text-4xl font-bold my-4 font-seven">Projects</div>
                 <div className="border rounded-lg flex flex-col-reverse lg:flex-row justify-between items-center my-10 hover:shadow-proj transition">
                     <div className="p-4">
                         <div className="flex justify-between items-center">
@@ -29,11 +29,11 @@ export default function Projects(){
                             components, highlighting my strong front-end development skills. I 
                             implemented Home, About, Login, and Contact pages, showcasing my 
                             ability to create cohesive and functional web applications.</div>
-                        <div className="flex flex-col lg:flex-row font-mono">
-                            <a href="" className="mr-6 underline hover:text-zinc-400">HTML</a>
-                            <a href="" className="mr-6 underline hover:text-zinc-400">CSS</a>
-                            <a href="" className="mr-6 underline hover:text-zinc-400">Javascript</a>
-                            <a href="" className="mr-6 underline hover:text-zinc-400">React</a>
+                        <div className="flex flex-col lg:flex-row font-eight text-base">
+                            <a href="" className="mr-6 transition hover:underline">HTML</a>
+                            <a href="" className="mr-6 transition hover:underline">CSS</a>
+                            <a href="" className="mr-6 transition hover:underline">Javascript</a>
+                            <a href="" className="mr-6 transition hover:underline">React</a>
                         </div>
                     </div>
                     <div>
@@ -60,12 +60,12 @@ export default function Projects(){
                             employed React hooks to implement interactive features such 
                             as a functional like button, significantly enhancing user 
                             engagement.</div>
-                        <div className="flex flex-col lg:flex-row font-mono">
-                            <a href="" className="mr-6 underline hover:text-zinc-400">HTML</a>
-                            <a href="" className="mr-6 underline hover:text-zinc-400">CSS</a>
-                            <a href="" className="mr-6 underline hover:text-zinc-400">Javascript</a>
-                            <a href="" className="mr-6 underline hover:text-zinc-400">React</a>
-                            <a href="" className="mr-6 underline hover:text-zinc-400">MaterialUI</a>
+                        <div className="flex flex-col lg:flex-row font-eight text-base">
+                            <a href="" className="mr-6 transition hover:underline">HTML</a>
+                            <a href="" className="mr-6 transition hover:underline">CSS</a>
+                            <a href="" className="mr-6 transition hover:underline">Javascript</a>
+                            <a href="" className="mr-6 transition hover:underline">React</a>
+                            <a href="" className="mr-6 transition hover:underline">MaterialUI</a>
                         </div>
                     </div>
                     <div>
@@ -91,12 +91,12 @@ export default function Projects(){
                             securely check account balances, add or withdraw money, and view 
                             transaction history. Implemented a responsive design and efficient 
                             data querying to enhance user experience and performance.</div>
-                        <div className="flex flex-col lg:flex-row font-mono">
-                            <a href="" className="mr-6 underline hover:text-zinc-400">React</a>
-                            <a href="" className="mr-6 underline hover:text-zinc-400">TailwindCSS</a>
-                            <a href="" className="mr-6 underline hover:text-zinc-400">Node.js</a>
-                            <a href="" className="mr-6 underline hover:text-zinc-400">Hasura</a>
-                            <a href="" className="mr-6 underline hover:text-zinc-400">GraphQL</a>
+                        <div className="flex flex-col lg:flex-row font-eight text-base">
+                            <a href="" className="mr-6 transition hover:underline">React</a>
+                            <a href="" className="mr-6 transition hover:underline">TailwindCSS</a>
+                            <a href="" className="mr-6 transition hover:underline">Node.js</a>
+                            <a href="" className="mr-6 transition hover:underline">Hasura</a>
+                            <a href="" className="mr-6 transition hover:underline">GraphQL</a>
                         </div>
                     </div>
                     <div className="w-full">

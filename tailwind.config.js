@@ -12,7 +12,9 @@ export default {
         three: "Oswald",
         four: "Playfair Display",
         five: "Roboto",
-        six: "Rubik"
+        six: "Rubik",
+        seven: "Agdasima",
+        eight: "Josefin Sans"
       },
       colors: {
         back: "#1D1D1D",

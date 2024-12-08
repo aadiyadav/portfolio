@@ -1,5 +1,6 @@
 import { useEffect } from "react"
 import Net from "vanta/src/vanta.net"
+import { TypeAnimation } from 'react-type-animation';
 
 export default function Home(){
     useEffect( () => {
@@ -20,12 +21,23 @@ export default function Home(){
     }, [])
     return(
         <div id="vanta" className="flex-col items-center justify-center h-screen text-gray-300">
-            <div className="flex items-center justify-center md:text-6xl sm:text-5xl text-3xl pt-80 font-six">
+            <div className="flex items-center justify-center md:text-6xl sm:text-5xl text-3xl font-semibold pt-80 font-two">
                 <div className="md:mr-4 mr-2">Hi, I am</div>
-                <div className="text-amber-300">Aadi Yadav</div>
-                <div>.</div>
+                <TypeAnimation
+                    sequence={[
+                        'Aadi Yadav.',
+                        5000,
+                        '',
+                        500,
+                    ]}
+                    wrapper="div"
+                    speed={3}
+                    className="text-amber-300"
+                    repeat={Infinity}
+                />
+                <div></div>
             </div>
-            <div className="flex justify-center mt-5 mx-10 text-base font-one">
+            <div className="flex justify-center mt-5 mx-10 text-lg font-eight">
                 A computer science student and MERN stack developer who loves coding...
             </div> 
         </div>
