@@ -17,20 +17,21 @@ export default function About(){
             <div className="lg:w-7/12 sm:px-16 px-4 py-10">
                 <div className="text-4xl font-bold my-4 font-seven">Introduction</div>
                 <div className="my-2">
-                    👨🏻‍💻 I am a student, currently in my 3rd year of pursuing Bachelor of 
-                    Technology in Computer Science with specialization in Big Data Analytics 
-                    from Netaji Subhas University of Technology. 🖊
+                    👋 Hello! I'm a third-year Computer Science student at Netaji Subhas 
+                    University of Technology, passionate about solving complex problems and 
+                    exploring innovative technologies.
                 </div>
                 <div className="my-2">
-                    💻 Besides coding, I love listening to music 🎶 and photography 📸. I also like
-                    playing sports and games, and solving difficult problems, making 
-                    Mathematics my favourite subject. I also keep interest in topics like game
-                    theory. 🧠
+                    💻 Beyond coding, I embrace a diverse range of interests from mathematical 
+                    problem-solving and game theory to photography 📸 and music 🎶. This blend 
+                    of analytical and creative pursuits shapes my unique approach to technical 
+                    challenges.
                 </div>
                 <div className="my-2">
-                    🔥 I am a person with high self-confidence 
-                    and self-motivation, which always drives me to work and give my best shot. 
-                    I am eagerly looking forward to work for your company and contribute my skills.
+                    🎯 Driven by strong self-motivation and an eagerness to learn, 
+                    I consistently push myself to exceed expectations. My solid foundation 
+                    in Mathematics combined with problem-solving skills enables me to tackle 
+                    complex challenges effectively.
                 </div>
                 <div className="text-4xl font-bold mt-12 flex font-seven">Skills</div>
                 <div className="flex items-center justify-around my-4 flex-wrap font-eight">

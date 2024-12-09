@@ -14,7 +14,8 @@ export default {
         five: "Roboto",
         six: "Rubik",
         seven: "Agdasima",
-        eight: "Josefin Sans"
+        eight: "Josefin Sans",
+        nine: "DM Sans"
       },
       colors: {
         back: "#1D1D1D",
@@ -22,7 +23,7 @@ export default {
       },
       boxShadow: {
         lang: '0px 0px 11px -2px rgba(255,255,255,0.51)',
-        proj: '0px 20px 30px -10px rgb(38, 57, 77);'
+        proj: '20px 20px 30px -10px rgba(0, 0, 0, 1);'
       }
     },
   },
