@@ -101,7 +101,7 @@ export default function Projects(){
                     </div>
                     <div className="w-full">
                         <img src={Fin} alt="YO" 
-                        className="rounded-lg cursor-auto min-w-72"/>
+                        className="rounded-lg cursor-auto lg:min-w-72"/>
                     </div>
                 </div>
             </div>
