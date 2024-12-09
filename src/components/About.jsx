@@ -16,18 +16,18 @@ export default function About(){
         <div className="bg-back h-full text-white flex justify-center">
             <div className="lg:w-7/12 sm:px-16 px-4 py-10">
                 <div className="text-4xl font-bold my-4 font-seven">Introduction</div>
-                <div className="my-2">
-                    👋 Hello! I'm a third-year Computer Science student at Netaji Subhas 
+                <div className="my-2 font-nine">
+                    👋 Hello! I am a third-year Computer Science student at Netaji Subhas 
                     University of Technology, passionate about solving complex problems and 
                     exploring innovative technologies.
                 </div>
-                <div className="my-2">
+                <div className="my-2 font-nine">
                     💻 Beyond coding, I embrace a diverse range of interests from mathematical 
                     problem-solving and game theory to photography 📸 and music 🎶. This blend 
                     of analytical and creative pursuits shapes my unique approach to technical 
                     challenges.
                 </div>
-                <div className="my-2">
+                <div className="my-2 font-nine">
                     🎯 Driven by strong self-motivation and an eagerness to learn, 
                     I consistently push myself to exceed expectations. My solid foundation 
                     in Mathematics combined with problem-solving skills enables me to tackle 

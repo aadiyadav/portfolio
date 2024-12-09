@@ -37,7 +37,7 @@ export default function Home(){
                 />
                 <div></div>
             </div>
-            <div className="flex justify-center text-center mt-5 mx-10 sm:text-lg text-sm font-eight">
+            <div className="flex justify-center text-center mt-5 mx-10 sm:text-lg text-sm font-nine">
                 A computer science student and problem solving enthuiast.
             </div> 
         </div>
