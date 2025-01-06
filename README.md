@@ -1,5 +1,7 @@
 # My Portfolio Website
 
+![Screenshot 2024-12-09 221304](https://github.com/user-attachments/assets/7d77fbfe-6e7a-4642-aef0-0a7b7f1ca5d2)
+
 Welcome to my portfolio website! This project showcases my personal and professional journey, highlighting my skills, projects, and more.
 
 ## Tech Stack
