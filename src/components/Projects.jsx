@@ -10,7 +10,7 @@ export default function Projects(){
 
     return(
         <div className="bg-back text-white h-full lg:flex lg:justify-center">
-            <div className="lg:w-3/5 px-10 py-10">
+            <div className="lg:w-3/5 md:px-10 px-6 md:py-10 py-4">
                 <div className="md:text-5xl text-4xl font-bold font-seven">Projects</div>
                 <div className="border rounded-lg flex flex-col-reverse lg:flex-row justify-between items-center my-10 hover:shadow-proj transition">
                     <div className="p-4">
