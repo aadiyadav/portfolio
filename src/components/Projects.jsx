@@ -44,16 +44,16 @@ export default function Projects(){
               </div>
               <div className="flex flex-wrap lg:flex-row gap-x-2 font-seven font-bold text-base">
                 <span className="bg-white rounded-xl px-2 text-back w-min my-1">
-                  Typescript
+                  Context API
                 </span>
                 <span className="bg-white rounded-xl px-2 text-back w-min my-1">
-                  JWT
+                  Redux
                 </span>
                 <span className="bg-white rounded-xl px-2 text-back my-1">
-                  React-Toast
+                  JWT
                 </span>
                 <span className="bg-white rounded-xl px-2 text-back w-min my-1">
-                  TailwindCSS
+                  React-Toast
                 </span>
               </div>
             </div>
