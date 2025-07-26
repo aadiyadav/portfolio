@@ -99,6 +99,17 @@ export default function Navbar(){
             {show ? (
               <div className="absolute shrink flex flex-col mt-14 bg-zinc-900 text-lg rounded-md text-white z-10 font-six font-medium">
                 <Link
+                  to="/experience"
+                  className={`cursor-pointer py-3 px-4 bg-cover bg-center bg-no-repeat border-b-1 flex justify-center w-full ${
+                    tab == "resume"
+                      ? "text-zinc-900 bg-white border rounded-md"
+                      : ""
+                  }`}
+                  onClick={() => changeTab("resume")}
+                >
+                  Experience
+                </Link>
+                <Link
                   to="/about"
                   className={`cursor-pointer py-3 px-4 bg-cover bg-center bg-no-repeat border-b-1 flex justify-center ${
                     tab == "about"
