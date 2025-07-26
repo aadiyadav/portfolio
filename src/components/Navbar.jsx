@@ -56,15 +56,6 @@ export default function Navbar(){
           </div>
           <div className="hidden md:flex items-center lg:gap-x-6 gap-x-4 font-six text-xl">
             <Link
-              to="/"
-              className={`px-2 py-1 cursor-pointer relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:origin-bottom-left hover:after:scale-x-100 ${
-                tab == "home" ? "font-bold" : ""
-              }`}
-              onClick={() => changeTab("home")}
-            >
-              Home
-            </Link>
-            <Link
               to="/about"
               className={`px-2 py-1 cursor-pointer relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:origin-bottom-left hover:after:scale-x-100 ${
                 tab == "about" ? "font-bold" : ""
@@ -72,6 +63,15 @@ export default function Navbar(){
               onClick={() => changeTab("about")}
             >
               About
+            </Link>
+            <Link
+              to="/experience"
+              className={`px-2 py-1 cursor-pointer relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:origin-bottom-left hover:after:scale-x-100 ${
+                tab == "about" ? "font-bold" : ""
+              }`}
+              onClick={() => changeTab("about")}
+            >
+              Experience
             </Link>
             <Link
               to="/resume"
@@ -98,17 +98,6 @@ export default function Navbar(){
             </button>
             {show ? (
               <div className="absolute shrink flex flex-col mt-14 bg-zinc-900 text-lg rounded-md text-white z-10 font-six font-medium">
-                <Link
-                  to="/"
-                  className={`cursor-pointer py-3 px-4 bg-cover bg-center bg-no-repeat border-b-1 flex justify-center w-full ${
-                    tab == "home"
-                      ? "text-zinc-900 bg-white border rounded-md"
-                      : ""
-                  }`}
-                  onClick={() => changeTab("home")}
-                >
-                  Home
-                </Link>
                 <Link
                   to="/about"
                   className={`cursor-pointer py-3 px-4 bg-cover bg-center bg-no-repeat border-b-1 flex justify-center ${
