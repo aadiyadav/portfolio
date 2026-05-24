@@ -18,17 +18,22 @@ export default function Navbar(){
 
     useEffect(() => {
         setShow(false);
+        // Sync tab state with current location
+        if (location.pathname === "/") setTab("home");
+        else if (location.pathname === "/about") setTab("about");
+        else if (location.pathname === "/experience") setTab("experience");
+        else if (location.pathname === "/projects") setTab("projects");
     }, [location]);
 
     return (
       <div>
         <div className="lg:px-12 md:px-8 px-5 h-14 flex lg:w-full justify-between relative bg-zinc-900 text-white">
-          <div className="flex items-center text-2xl font-bold cursor-pointer lg:mx-32 md:mx-20 py-2 font-two">
+          <div className="flex items-center text-2xl font-bold cursor-pointer lg:mx-32 md:mx-20 py-2 font-heading">
             <Link
               to="/"
               className="text-amber-500 relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:origin-bottom-left hover:after:scale-x-100"
             >
-              Aadi Yadav
+              AADI YADAV
             </Link>
           </div>
           <div className="hidden sm:flex justify-center items-center gap-x-6 md:mx-0 sm:mr-20">
@@ -54,7 +59,7 @@ export default function Navbar(){
               />
             </a>
           </div>
-          <div className="hidden md:flex items-center lg:gap-x-6 gap-x-4 font-six text-xl">
+          <div className="hidden md:flex items-center lg:gap-x-6 gap-x-4 font-heading text-xl">
             <Link
               to="/about"
               className={`px-2 py-1 cursor-pointer relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:origin-bottom-left hover:after:scale-x-100 ${
@@ -67,7 +72,7 @@ export default function Navbar(){
             <Link
               to="/experience"
               className={`px-2 py-1 cursor-pointer relative after:absolute after:bottom-0 after:left-0 after:h-[1.5px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:origin-bottom-left hover:after:scale-x-100 ${
-                tab == "about" ? "font-bold" : ""
+                tab == "experience" ? "font-bold" : ""
               }`}
               onClick={() => changeTab("experience")}
             >
@@ -88,7 +93,7 @@ export default function Navbar(){
               <RxHamburgerMenu size={24} />
             </button>
             {show ? (
-              <div className="absolute shrink flex flex-col mt-14 bg-zinc-900 text-lg rounded-md text-white z-10 font-six font-medium">
+              <div className="absolute shrink flex flex-col mt-14 bg-zinc-900 text-lg rounded-md text-white z-10 font-body font-medium">
                 <Link
                   to="/about"
                   className={`cursor-pointer py-3 px-4 bg-cover bg-center bg-no-repeat border-b-1 flex justify-center ${

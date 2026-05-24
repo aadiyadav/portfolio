@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --font-heading: 'Bricolage Grotesque', sans-serif;
+    --font-body: 'Onest', sans-serif;
+  }
+  
+  html {
+    font-family: var(--font-body);
+  }
+}
