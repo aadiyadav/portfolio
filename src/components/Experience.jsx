@@ -13,7 +13,7 @@ export default function Experience() {
               />
               <div className="text-center md:text-left font-heading">
                 <div className="text-lg sm:text-xl font-bold mb-1">
-                  Full Stack Developer Intern
+                  Software Developer
                 </div>
                 <div className="text-base sm:text-lg">
                   Abould
@@ -22,7 +22,7 @@ export default function Experience() {
             </div>
             <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-6 text-justify">
               <div className="text-lg sm:text-xl font-bold">
-                Full Stack Developer Intern
+                Software Developer
               </div>
               <div className="flex md:flex-row flex-col md:items-center justify-between mb-2 gap-x-4 gap-y-1">
                 <div className="text-base sm:text-lg">

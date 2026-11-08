@@ -3,6 +3,7 @@ import Social from "/assets/projects/peaquack.png"
 import Fin from "/assets/projects/fintech.jpg"
 import doing from "/assets/projects/to-doing.png"
 import studio from "/assets/projects/studio.png";
+import corroly from "/assets/projects/corroly.png";
 
 export default function Projects(){
 
@@ -15,6 +16,59 @@ export default function Projects(){
         <div className="lg:w-3/5 md:px-10 px-6 py-10">
           <div className="md:text-4xl text-3xl font-bold my-4 font-heading">
             Projects
+          </div>
+          <div className="border rounded-lg flex flex-col-reverse lg:flex-row justify-between items-center my-8 hover:shadow-proj transition">
+            <div className="p-4 w-full">
+              <div className="flex justify-between items-center">
+                <div className="text-xl font-heading">
+                  Corroly - Research Synthesis Platform
+                </div>
+                <button
+                  className="py-2 px-4 ml-2 border rounded-md hover:bg-white
+                             hover:text-black transition duration-300 ease-in-out"
+                  onClick={() =>
+                    handleClick(
+                      "https://github.com/aadiyadav/corroly.git"
+                    )
+                  }
+                >
+                  Github
+                </button>
+              </div>
+              <div className="my-2 text-sm font-body">
+                Engineered a distributed 3-tier research platform using Next.js 14, Express, and Python FastAPI. Engineered a 5-stage ingestion pipeline with PikePDF linearization (cutting payloads by 30–50%) and PyMuPDF reading-order extraction. Enforced zero-trust multi-tenant RAG in ChromaDB with live SSE token streaming and interactive citation-linked PDF navigation.
+              </div>
+              <div className="flex flex-wrap lg:flex-row gap-x-2 font-heading font-bold text-base">
+                <span className="bg-white rounded-xl px-2 text-back w-min my-1">
+                  Next.js
+                </span>
+                <span className="bg-white rounded-xl px-2 text-back w-min my-1">
+                  RAG
+                </span>
+                <span className="bg-white rounded-xl px-2 text-back w-min my-1">
+                  FastAPI
+                </span>
+                <span className="bg-white rounded-xl px-2 text-back w-min my-1">
+                  ChromaDB
+                </span>
+                <span className="bg-white rounded-xl px-2 text-back w-min my-1">
+                  PostgreSQL
+                </span>
+                <span className="bg-white rounded-xl px-2 text-back w-min my-1">
+                  Docker
+                </span>
+              </div>
+            </div>
+            <div className="w-full">
+              <img
+                src={corroly}
+                alt="Corroly - Research Synthesis Platform"
+                className="rounded-lg cursor-pointer"
+                onClick={() =>
+                  handleClick("https://corroly.vercel.app")
+                }
+              />
+            </div>
           </div>
           <div className="border rounded-lg flex flex-col-reverse lg:flex-row justify-between items-center my-8 hover:shadow-proj transition">
             <div className="p-4 w-full">
